@@ -11,12 +11,8 @@ import {
     facebook,
     figma,
     file02,
-    framer,
     homeSmile,
     instagram,
-    notification2,
-    notification3,
-    notification4,
     notion,
     photoshop,
     plusSquare,
@@ -34,6 +30,10 @@ import {
     telegram,
     twitter,
     yourlogo,
+    instafollower1,
+    instafollower2,
+    instafollower3,
+    instafollower4,
 } from "../assets";
 
 export const navigation = [
@@ -65,9 +65,13 @@ export const navigation = [
     },
 ];
 
-export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const heroIcons = [
+    {icon:homeSmile, url: "https://github.com/shawabhijit"}, 
+    {icon:file02 , url: "https://www.linkedin.com/in/abhijit-sahoo-354b03253/"}, 
+    {icon:searchMd , url: "https://x.com/Abhijit79958967"}, 
+    {icon:plusSquare , url: "https://www.facebook.com/abhijith.sahoo.2003/"}];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const instafollowers = [instafollower1, instafollower2, instafollower3,instafollower4];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
@@ -186,7 +190,7 @@ export const collabApps = [
     {
         id: "6",
         title: "Framer",
-        icon: framer,
+        // icon: framer,
         width: 26,
         height: 34,
     },

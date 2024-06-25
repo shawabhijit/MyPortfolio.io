@@ -22,14 +22,13 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/MyImg.png";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
-import framer from "./collaboration/framer.png";
 import notion from "./collaboration/notion.png";
 import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
@@ -52,11 +51,6 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
-import notification1 from "./notification/image-1.png";
-import notification2 from "./notification/image-2.png";
-import notification3 from "./notification/image-3.png";
-import notification4 from "./notification/image-4.png";
-
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
 import benefitCard3 from "./benefits/card-3.svg";
@@ -75,7 +69,22 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import MyImg from './hero/MyImg.png';
+
+import instaProfilePic from './instaProfile/instaprofilepic.jpg'
+import instafollower1 from './instaProfile/instafollower1.jpg';
+import instafollower2 from './instaProfile/instafollower2.jpg';
+import instafollower3 from './instaProfile/instafollower3.jpg';
+import instafollower4 from './instaProfile/instafollower4.jpg';
+
+
 export {
+  MyImg,
+  instafollower1,
+  instafollower2,
+  instafollower3,
+  instafollower4,
+  instaProfilePic,
   brainwave,
   check,
   check2,
@@ -105,7 +114,6 @@ export {
   curve2,
   discord,
   figma,
-  framer,
   notion,
   photoshop,
   protopie,
@@ -124,10 +132,6 @@ export {
   roadmap3,
   roadmap4,
   undone,
-  notification1,
-  notification2,
-  notification3,
-  notification4,
   benefitCard1,
   benefitCard2,
   benefitCard3,
