@@ -41,7 +41,7 @@ const Hero = () => {
                             
                             <FollowMe className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
-                            <ScrollParallax isAbsolutelyPositioned>
+                            <ScrollParallax isAbsolutelyPositioned zIndex={100}>
                                 <ul className="hidden absolute -left-[5rem] bottom-[7.5rem] px-1 bg-n-9/40 backdrop-blur-sm border border-n-1/10 rounded-2xl xl:flex">
                                     {heroIcons.map( (icon,index) => (
                                         <li className="p-5" key={index}>
@@ -64,7 +64,6 @@ const Hero = () => {
                 </div>
                 <BackgroundCircles />
             </div>
-            {/* <CompanyLogos className="hidden relative z-10 mt-20 lg:block" /> */}
         </div>
         <BottomLine />
     </Section>;
