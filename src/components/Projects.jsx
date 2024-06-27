@@ -1,7 +1,7 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { check } from "../assets";
-import { brainwaveServices } from "../constants";
+import { EcommersFeatures } from "../constants";
 import { BottomLine } from "../design/Hero";
 import {
   Gradient,
@@ -40,7 +40,7 @@ const Projects = () => {
                   A Comprehensive E-commerce Site with Advanced Search, Cart Management, and Secure Payment Integration
                 </p>
                 <ul className="body-2">
-                  {brainwaveServices.map((item, index) => (
+                  {EcommersFeatures.map((item, index) => (
                     <li
                       key={index}
                       className="flex items-start py-4 border-t border-n-6"
