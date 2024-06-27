@@ -2,6 +2,7 @@ import Section from "./Section";
 import Heading from "./Heading";
 import { check } from "../assets";
 import { brainwaveServices } from "../constants";
+import { BottomLine } from "../design/Hero";
 import {
   Gradient,
 } from "../design/Services";
@@ -14,7 +15,7 @@ const Projects = () => {
   const recent = <span>recent projects</span>
   return (
     <div>
-      <Section id="how-to-use">
+      <Section id="how-to-use z-1">
         <div className="container">
           <Heading
             title={`A small selection of `}
@@ -160,6 +161,7 @@ const Projects = () => {
           </div>
         </div>
       </Section>
+      <BottomLine />
     </div>
   )
 }
