@@ -15,7 +15,7 @@ const Projects = () => {
   const recent = <span>recent projects</span>
   return (
     <div>
-      <Section id="how-to-use z-1">
+      <Section id="projects">
         <div className="container">
           <Heading
             title={`A small selection of `}

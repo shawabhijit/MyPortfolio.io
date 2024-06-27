@@ -34,7 +34,7 @@ const Header = () => {
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-1">
         <a href="#home" className="block w-[12rem] xl:mr-8">
           <h2 className="w-[190px] font-code lg:font-semibold text-lg uppercase transition-colors hover:text-color-1">
-              Abhijit Sahoo
+              <a href="#home" >Abhijit Sahoo</a>
             </h2>
         </a>
         <nav className={`${openNavigation ? "flex" : "hidden"} fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex lg:mx-auto lg:bg-transparent`}>

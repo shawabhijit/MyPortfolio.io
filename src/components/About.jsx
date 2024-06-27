@@ -6,7 +6,7 @@ import { BottomLine } from "../design/Hero";
 
 const About = () => {
   return (
-    <Section id="about" >
+    <Section id="aboutme" >
       <BentoGrid className="w-[80%] py-20 z-[10]">
         {gridItems.map((item, i) => (
           <BentoGridItem
