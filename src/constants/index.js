@@ -76,9 +76,9 @@ export const instafollowers = [instafollower1, instafollower2, instafollower3,in
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-    "Photo generating",
-    "Photo enhance",
-    "Seamless Integration",
+    "Advanced Searching System",
+    "Cart Management",
+    "Secure Payment Integration",
 ];
 
 export const brainwaveServicesIcons = [

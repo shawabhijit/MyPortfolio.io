@@ -22,7 +22,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/MyImg.png";
+import robot from "./hero/MyImg.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -69,13 +69,21 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
-import MyImg from './hero/MyImg.png';
+import MyImg from './hero/MyImg.jpg';
 
 import instaProfilePic from './instaProfile/instaprofilepic.jpg'
 import instafollower1 from './instaProfile/instafollower1.jpg';
 import instafollower2 from './instaProfile/instafollower2.jpg';
 import instafollower3 from './instaProfile/instafollower3.jpg';
 import instafollower4 from './instaProfile/instafollower4.jpg';
+
+import GsapIconImage from './collaboration/GsapIconImage.webp';
+import HTMLIconImage from './collaboration/HTMLIconImage.webp';
+import JavascriptIconimage from './collaboration/javascriptIconimage.webp';
+import reactIconImage from './collaboration/reactIconImage.webp';
+import tailwindCssicon from './collaboration/tailwindCssIcon.webp';
+import ThreejsIconimage from './collaboration/ThreejsIconImage.webp';
+import CssIconImage from './collaboration/CssIconImage.webp';
 
 
 export {
@@ -85,6 +93,13 @@ export {
   instafollower3,
   instafollower4,
   instaProfilePic,
+  GsapIconImage,
+  HTMLIconImage,
+  JavascriptIconimage,
+  reactIconImage,
+  tailwindCssicon,
+  ThreejsIconimage,
+  CssIconImage,
   brainwave,
   check,
   check2,
