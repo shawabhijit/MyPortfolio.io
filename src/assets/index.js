@@ -31,9 +31,15 @@ import discord from "./collaboration/discord.png";
 import figma from "./collaboration/figma.png";
 import notion from "./collaboration/notion.png";
 import photoshop from "./collaboration/photoshop.png";
-import protopie from "./collaboration/protopie.png";
-import raindrop from "./collaboration/raindrop.png";
-import slack from "./collaboration/slack.png";
+import GsapIconImage from './collaboration/GsapIconImage.webp';
+import HTMLIconImage from './collaboration/HTMLIconImage.webp';
+import JavascriptIconimage from './collaboration/javascriptIconimage.webp';
+import reactIconImage from './collaboration/reactIconImage.webp';
+import tailwindCssicon from './collaboration/tailwindCssIcon.webp';
+import ThreejsIconimage from './collaboration/ThreejsIconImage.webp';
+import CssIconImage from './collaboration/CssIconImage.webp';
+import VsCodeIconImage from './collaboration/VsCodeIconImage.webp'
+
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -77,13 +83,7 @@ import instafollower2 from './instaProfile/instafollower2.jpg';
 import instafollower3 from './instaProfile/instafollower3.jpg';
 import instafollower4 from './instaProfile/instafollower4.jpg';
 
-import GsapIconImage from './collaboration/GsapIconImage.webp';
-import HTMLIconImage from './collaboration/HTMLIconImage.webp';
-import JavascriptIconimage from './collaboration/javascriptIconimage.webp';
-import reactIconImage from './collaboration/reactIconImage.webp';
-import tailwindCssicon from './collaboration/tailwindCssIcon.webp';
-import ThreejsIconimage from './collaboration/ThreejsIconImage.webp';
-import CssIconImage from './collaboration/CssIconImage.webp';
+
 
 
 export {
@@ -100,6 +100,7 @@ export {
   tailwindCssicon,
   ThreejsIconimage,
   CssIconImage,
+  VsCodeIconImage,
   brainwave,
   check,
   check2,
@@ -131,9 +132,6 @@ export {
   figma,
   notion,
   photoshop,
-  protopie,
-  raindrop,
-  slack,
   service1,
   service2,
   service3,

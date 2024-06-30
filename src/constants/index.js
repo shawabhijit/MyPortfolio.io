@@ -1,25 +1,26 @@
 import {
-    discord,
     discordBlack,
     facebook,
-    figma,
     file02,
     homeSmile,
     instagram,
-    notion,
-    photoshop,
     plusSquare,
-    protopie,
-    raindrop,
     searchMd,
-    slack,
-    sliders04,
     telegram,
     twitter,
     instafollower1,
     instafollower2,
     instafollower3,
     instafollower4,
+    VsCodeIconImage,
+    GsapIconImage,
+    HTMLIconImage,
+    CssIconImage,
+    JavascriptIconimage,
+    reactIconImage,
+    ThreejsIconimage,
+    tailwindCssicon,
+    figma
 } from "../assets";
 
 export const navigation = [
@@ -66,7 +67,17 @@ export const EcommersFeatures = [
     "Secure Payment Integration",
 ];
 
-
+export const TechStacksIcons = [
+    {id:1,url:VsCodeIconImage, name:"VsCode"},
+    {id:2,url:HTMLIconImage, name:"Html"},
+    {id:3,url:CssIconImage, name:"Css"},
+    {id:7, url:JavascriptIconimage, name:"Javascript"},
+    {id:4,url:reactIconImage, name:"React"},
+    {id:8,url:tailwindCssicon, name:"Tailwind css"},
+    {id:5,url:ThreejsIconimage, name:"Three js"},
+    {id:6,url:GsapIconImage, name:"Gsap"},
+    {id:9,url:figma, name:"Figma"},
+]
 
 export const collabText =
     "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
@@ -87,64 +98,6 @@ export const collabContent = [
     },
 ];
 
-export const collabApps = [
-    {
-        id: "0",
-        title: "Figma",
-        icon: figma,
-        width: 26,
-        height: 36,
-    },
-    {
-        id: "1",
-        title: "Notion",
-        icon: notion,
-        width: 34,
-        height: 36,
-    },
-    {
-        id: "2",
-        title: "Discord",
-        icon: discord,
-        width: 36,
-        height: 28,
-    },
-    {
-        id: "3",
-        title: "Slack",
-        icon: slack,
-        width: 34,
-        height: 35,
-    },
-    {
-        id: "4",
-        title: "Photoshop",
-        icon: photoshop,
-        width: 34,
-        height: 34,
-    },
-    {
-        id: "5",
-        title: "Protopie",
-        icon: protopie,
-        width: 34,
-        height: 34,
-    },
-    {
-        id: "6",
-        title: "Framer",
-        // icon: framer,
-        width: 26,
-        height: 34,
-    },
-    {
-        id: "7",
-        title: "Raindrop",
-        icon: raindrop,
-        width: 38,
-        height: 32,
-    },
-];
 
 export const socials = [
     {

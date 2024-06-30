@@ -7,6 +7,7 @@ import { heroIcons } from '../constants';
 import { ScrollParallax } from "react-just-parallax";
 import FollowMe from "./FollowMe";
 import InstaProfile from "./InstaProfile";
+import TechStacks from "./Tech";
 // import CompanyLogos from "./CompanyLogos";
 
 
@@ -64,6 +65,7 @@ const Hero = () => {
                 </div>
                 <BackgroundCircles />
             </div>
+            <TechStacks className="hidden relative z-10 mt-20 lg:block" />
         </div>
         <BottomLine />
     </Section>;
