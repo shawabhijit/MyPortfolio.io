@@ -8,7 +8,6 @@ import { ScrollParallax } from "react-just-parallax";
 import FollowMe from "./FollowMe";
 import InstaProfile from "./InstaProfile";
 import TechStacks from "./Tech";
-// import CompanyLogos from "./CompanyLogos";
 
 
 const Hero = () => {

@@ -12,7 +12,6 @@ import { FiArrowUpRight } from "react-icons/fi";
 
 
 const Projects = () => {
-  const recent = <span>recent projects</span>
   return (
     <div>
       <Section id="projects">
